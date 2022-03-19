@@ -1,7 +1,7 @@
 # Cpp_dir_creator
 script to create the base of a cpp project
 
-1) put this script in the root of your C++ module.. ex : CPP-module_02
+1) put this script in the root of your C++ module.. ex : CPP-module_02. And make sure this repository is empty. 
 2) Chmod u+x scripts.sh
 3) Usage : bash script.sh 'exerciseNumber' 'first .hpp' 'second.hpp' 'third .hpp' '...can go up to five .hpp file'
 
