@@ -5,7 +5,7 @@ script to create the base of a cpp project
 2) Chmod u+x scripts.sh
 3) Usage : bash script.sh 'exerciseNumber' 'First.hpp' 'Second.hpp' 'Third.hpp' '...can go up to five .hpp file'
 4) ==> Put the first letter of the required .hpp as capital Letter. Don't write ".hpp" after the name.
-5) ==> EXAMPLE : bash script.sh ex01 Karen
+5) ==> EXAMPLE : bash script.sh ex05 Karen
 
 ... it will create : 
 -the 'exerciseNumber' directory
