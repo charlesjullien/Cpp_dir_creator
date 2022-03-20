@@ -4,7 +4,7 @@ script to create the base of a cpp project
 1) put this script in the root of your C++ module.. ex : CPP-module_02. And make sure this repository is empty. 
 2) Chmod u+x scripts.sh
 3) Usage : bash script.sh 'exerciseNumber' 'First.hpp' 'Second.hpp' 'Third.hpp' '...can go up to five .hpp file'
-4) ==> Put the first of the required .hpp as capital Letter
+4) ==> Put the first letter of the required .hpp as capital Letter. Don't write ".hpp" after the name.
 5) ==> EXAMPLE : bash script.sh ex01 Karen
 
 ... it will create : 
