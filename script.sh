@@ -193,23 +193,24 @@ echo "#include \"../includes/${FILENAME1}\"
 
 ${CLASS1}::${CLASS1}()
 {
-
+	std::cout << \"Default constructor called for ${CLASS1}\" << std::endl;
 }
 
 ${CLASS1}::${CLASS1}(const ${CLASS1} &other)
 {
+	std::cout << \"Copy constructor called for ${CLASS1}\" << std::endl;
 	*this = other;
 }
 
 ${CLASS1} &${CLASS1}::operator=(const ${CLASS1} &other)
 {
-
+	std::cout << \"Assignation constructor called for ${CLASS1}\" << std::endl;
 	return (*this);
 }
 
 ${CLASS1}::~${CLASS1}()
 {
-
+	std::cout << \"Destructor of ${CLASS1} called\" << std::endl;
 }
 " > $FILENAME1_COPY
 
@@ -222,23 +223,24 @@ if [ -n "$FILENAME2" ]; then
 
 ${CLASS2}::${CLASS2}()
 {
-
+	std::cout << \"Default constructor called for ${CLASS2}\" << std::endl;
 }
 
 ${CLASS2}::${CLASS2}(const ${CLASS2} &other)
 {
+	std::cout << \"Copy constructor called for ${CLASS2}\" << std::endl;
 	*this = other;
 }
 
 ${CLASS2} &${CLASS2}::operator=(const ${CLASS2} &other)
 {
-
+	std::cout << \"Assignation constructor called for ${CLASS2}\" << std::endl;
 	return (*this);
 }
 
 ${CLASS2}::~${CLASS2}()
 {
-
+	std::cout << \"Destructor of ${CLASS2} called\" << std::endl;
 }
 " > $FILENAME2_COPY
 fi
@@ -252,23 +254,24 @@ if [ -n "$FILENAME3" ]; then
 
 ${CLASS3}::${CLASS3}()
 {
-
+	std::cout << \"Default constructor called for ${CLASS3}\" << std::endl;
 }
 
 ${CLASS3}::${CLASS3}(const ${CLASS3} &other)
 {
+	std::cout << \"Copy constructor called for ${CLASS3}\" << std::endl;
 	*this = other;
 }
 
 ${CLASS3} &${CLASS3}::operator=(const ${CLASS3} &other)
 {
-
+	std::cout << \"Assignation constructor called for ${CLASS3}\" << std::endl;
 	return (*this);
 }
 
 ${CLASS3}::~${CLASS3}()
 {
-
+	std::cout << \"Destructor of ${CLASS3} called\" << std::endl;
 }
 " > $FILENAME3_COPY
 fi
@@ -282,23 +285,24 @@ if [ -n "$FILENAME4" ]; then
 
 ${CLASS4}::${CLASS4}()
 {
-
+	std::cout << \"Default constructor called for ${CLASS4}\" << std::endl;
 }
 
 ${CLASS4}::${CLASS4}(const ${CLASS4} &other)
 {
+	std::cout << \"Copy constructor called for ${CLASS4}\" << std::endl;
 	*this = other;
 }
 
 ${CLASS4} &${CLASS4}::operator=(const ${CLASS4} &other)
 {
-
+	std::cout << \"Assignation constructor called for ${CLASS4}\" << std::endl;
 	return (*this);
 }
 
 ${CLASS4}::~${CLASS4}()
 {
-
+	std::cout << \"Destructor of ${CLASS4} called\" << std::endl;
 }
 " > $FILENAME4_COPY
 fi
@@ -312,23 +316,24 @@ if [ -n "$FILENAME5" ]; then
 
 ${CLASS5}::${CLASS5}()
 {
-
+	std::cout << \"Default constructor called for ${CLASS5}\" << std::endl;
 }
 
 ${CLASS5}::${CLASS5}(const ${CLASS5} &other)
 {
+	std::cout << \"Copy constructor called for ${CLASS5}\" << std::endl;
 	*this = other;
 }
 
 ${CLASS5} &${CLASS5}::operator=(const ${CLASS5} &other)
 {
-
+	std::cout << \"Assignation constructor called for ${CLASS5}\" << std::endl;
 	return (*this);
 }
 
 ${CLASS5}::~${CLASS5}()
 {
-
+	std::cout << \"Destructor of ${CLASS5} called\" << std::endl;
 }
 " > $FILENAME5_COPY
 fi
